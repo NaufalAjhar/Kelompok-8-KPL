@@ -1,10 +1,18 @@
-﻿namespace tpmodul7_kelompok_8
+﻿using TPModul7_Kelompok_8;
+
+namespace TPModul7_Kelompok8
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var mahasiswa = new DataMahasiswa_1302220024 { };
+
+            var courses = new KuliahMahasiswa_1302220024 { };
+
+            mahasiswa.ReadJSON();
+            courses.ReadJSON();
+
         }
     }
 }

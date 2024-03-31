@@ -40,7 +40,7 @@ namespace tpmodul7_kelompok_8
         }
         public void ReadJSON()
         {
-            String json = File.ReadAllText("C:\\TUBES-KPL\\Kelompok-8-KPL\\tpmodul7_kelompok_8\\tp7_1_1302220098.json");
+            String json = File.ReadAllText("C:\\Users\\Haikal\\OneDrive\\Documents\\Konstruksi Perangkat Lunak\\tp7_1_1302220098.json");
             var mahasiswa = JsonSerializer.Deserialize<DataMahasiswa1302220098>(json);
             Console.WriteLine($"Nama {mahasiswa.nama.depan} {mahasiswa.nama.belakang} dengan nim {mahasiswa.nim} dari fakultas {mahasiswa.fakultas}");
         }

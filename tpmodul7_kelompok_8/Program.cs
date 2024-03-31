@@ -5,9 +5,11 @@
         static void Main(string[] args)
         {
             var mahasiswa = new DataMahasiswa1302223015 { };
+            var courses = new KuliahMahasiswa1302223015 { };
 
 
             mahasiswa.ReadJSON();
+            courses.ReadJSON();
             
         }
     }

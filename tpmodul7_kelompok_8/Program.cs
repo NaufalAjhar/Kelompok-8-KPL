@@ -6,6 +6,14 @@ namespace TPModul7_Kelompok8
     {
         static void Main(string[] args)
         {
+
+            var mahasiswa = new DataMahasiswa1302220098 { };
+
+            var courses = new KuliahMahasiswa1302220098 { };
+
+            mahasiswa.ReadJSON();
+            courses.ReadJSON();
+
             var mahasiswa = new DataMahasiswa1302223040 { };
 
             var courses = new KuliahMahasiswa1302223040 { };
@@ -22,7 +30,6 @@ namespace TPModul7_Kelompok8
           
             var mahasiswa = new DataMahasiswa1302223015 { };
             var courses = new KuliahMahasiswa1302223015 { };
-
 
             mahasiswa.ReadJSON();
             courses.ReadJSON();
